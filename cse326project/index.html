@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLW|</title>
+  <link rel="stylesheet" href="xyz.css" />
+  <link rel="icon" href="image/logo_size_invert.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js"></script>
+  <style>
+
+  </style>
+</head>
+
+<body class="homepage">
+  <header>
+    <header>
+      <img style="height: 50px; width: 50px; display: inline-block" src="image/logo_size_invert.jpg"
+        title="Language Learning website" alt="website logo" />
+      <h1 title="Language Learning website">LLW</h1>
+
+    </header>
+    <nav>
+      <button id="loginButton">Login</button>
+      <button id="signupButton">Signup</button>
+      <a href="/">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+
+  <div id="loinPage0" style="padding-left: 300px;">
+    <div id="loginPage" class="login-page">
+      <h2>Login</h2>
+      <!-- Add your login form fields here -->
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Submit">
+        
+      </form>
+    </div>
+  </div>
+  <div style="padding-left: 300px;">
+    <div id="signupPage" class="signup-page">
+      <h2>Signup</h2>
+      <!-- Add your signup form fields here -->
+      <form>
+        <label for="newUsername">Username:</label>
+        <input type="text" id="newUsername" name="newUsername" required>
+        <br>
+        <label for="newPassword">Password:</label>
+        <input type="password" id="newPassword" name="newPassword" required>
+        <br>
+        <input type="checkbox" id="terms">
+        <label for="terms" style="font-size: 20px;">I agree to the terms & conditions.</label><br>
+        <input type="submit" value="Submit">
+        <br>
+
+      </form>
+    </div>
+  </div>
+  <script>
+    document.getElementById('loginButton').addEventListener('click', function () {
+      // Show the login page when the login button is clicked
+      document.getElementById('loginPage').style.display = 'block';
+      // Hide the signup page
+      document.getElementById('signupPage').style.display = 'none';
+    });
+
+    document.getElementById('signupButton').addEventListener('click', function () {
+      // Show the signup page when the signup button is clicked
+      document.getElementById('signupPage').style.display = 'block';
+      // Hide the login page
+      document.getElementById('loginPage').style.display = 'none';
+    });
+  </script>
+
+
+
+
+  <div class="main" style="height: 1000px">
+
+    <h2><b>Welcome to</b> <br /><b &nbsp; &nbsp; &nbsp;>LLW!!</b></h2>
+    <article>
+      <p style="line-height: 80px">Invest in <br />Your Future</p>
+      <p style="font-size: 30px; padding-left: 60px; line-height: 50px">
+        We are a Global Learning site,<br />
+        Making you Better
+      </p>
+    </article>
+    <p style="display: inline-block; font-size: 30px; margin-left: 30%">
+      Language Offered By Us
+    </p>
+    <div class="scroll-container">
+      <a href="english1.html"> <img src="image/us.png" title="English" alt="us flag"
+          style="height: 120px; padding-bottom: 200px;" /></a>
+      <a href="japanese1.html"> <img src="image/japan.png" title="Japanese" alt="japan flag"
+          style="height: 120px; padding-bottom: 200px;" /></a>
+
+      <a href="spanish1.html"> <img src="image/spain.png" title="Spanish" alt="spain flag"
+          style="height: 120px; padding-bottom: 200px;" /></a>
+    </div>
+  </div>
+  <div class="main2">
+    <div class="image2">
+      <img src="image/image2.jpg" alt="image2" height="600px" width="600px" />
+    </div>
+    <article>
+      <h2 style="font-size: 60px; padding-right: 30%; padding-left: 30%">
+        <b>Our <br />COURSES</b>
+      </h2>
+
+      <h3 style="padding-left: 10%">ENGLISH</h3>
+      <p1 style="padding-left: 5%">English is a West Germanic language in the Indo-European language
+        family, whose speakers, called Anglophones, originated in early
+        medieval England.The namesake of the language is the Angles, one of
+        the ancient Germanic peoples that migrated to the island of Great
+        Britain. Modern English is both the most spoken language in the
+        world...
+      </p1>
+
+      <h3 style="padding-left: 10%">JAPANESE</h3>
+      <p2 style="padding-left: 5%">Japanese is the principal language of the Japonic language family
+        spoken by the Japanese people. It has around 128 million speakers,
+        primarily in Japan, the only country where it is the national
+        language, and within the Japanese diaspora worldwide...
+      </p2>
+
+      <h3 style="padding-left: 10%">SPANISH</h3>
+      <p4 style="padding-left: 5%">Spanish (español or idioma español), or Castilian (castellano), is a
+        Romance language of the Indo-European language family that evolved
+        from the Vulgar Latin spoken on the Iberian Peninsula of Europe.
+        Today, it is a global language with about 486 million native speakers,
+        mainly in the Americas and Spain. Spanish is the official language of
+        20 countries. It is the world's second-most spoken native language
+        after Mandarin Chinese;the world's fourth-most spoken language overall
+        after English, Mandarin Chinese, and Hindustani (Hindi-Urdu); and the
+        world's....</p4>
+    </article>
+  </div>
+  <div class="partners">
+    <h2 style="font-size: 25px; padding-left: 10%">Partnership with</h2>
+    <a title="Duolingo" href="https://www.duolingo.com/"><img style="object-fit: cover; 
+        object-position: 50% 50%;
+         height: 200px;
+         padding-right: 20%;" src="image/dualingo.png" alt="" /></a>
+    <a href="https://www.busuu.com/" title="Busuu" style="object-fit: cover; 
+      object-position: 50% 50%;
+       height: 200px;
+       padding-right: 20%;"><img src="image/busu.png" alt="" /></a>
+    <a href="https://www.babbel.com/" title="Babbel"><img src="image/babbel.png" alt="" style="object-fit: cover; 
+        object-position: 50% 50%;
+         height: 200px;
+         padding-right: 20%;" /></a>
+  </div>
+  <footer>
+    <section>
+      <video aria-label="Balls moving slowly up and down a clean surface" playsinline="" preload="auto" muted="" loop=""
+        autoplay="" style="
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center center;
+                opacity: 1;
+              "
+        src="https://video.wixstatic.com/video/0b340f_65868668833e431c95dec837b9e2ad6d/1080p/mp4/file.mp4"></video>
+    </section>
+    <section3>
+      <img src="image/logo_size_invert.jpg" alt="" style="display:block; height: 100px;">
+      <p>500 Terry Francois Street <br>
+        San Francisco, CA 94158 <br>
+        123-456-7890 <br>
+        info@mysite.com</p>
+    </section3>
+    <section4>
+      <p>&#169 2023 Language Learning website</p>
+    </section4>
+    <section5>
+      <ul>
+        <a href="/">
+          <li>Home</li>
+        </a>
+        <a href="courses.html">
+          <li>Courses</li>
+        </a>
+        <a href="#">
+          <li>About Us</li>
+        </a>
+        <a href="#">
+          <li>Contact</li>
+        </a>
+      </ul>
+    </section5>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,434 @@
+body.homepage {
+  header {
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2);
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+  nav {
+    float: right;
+    padding: 1.5em;
+    border-radius: 8px;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 0 1.5em;
+    color: black;
+
+  }
+  .login-page,
+  .signup-page {
+    display: none;
+  }
+  #loginButton {
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    transition: 0.5s;
+  }
+  nav #loginButton:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.84);
+    color: #fff;
+    cursor: pointer;
+  }
+  #signupButton {
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    transition: 0.5s;
+  }
+  nav #signupButton:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.84);
+    color: #fff;
+    cursor: pointer;
+  }
+  .login-page {
+    background-image: url(image/login.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(107, 92, 92, 0.566);
+    border: 10px solid #fff;
+    width: 600px;
+    height: 550px;
+    background-position: center;
+    align-items: center;
+    border-radius: 40px;
+  }
+  .login-page input {
+    background: #ffffffa4;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+
+  }
+  .signup-page {
+    background-image: url(image/login.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(107, 92, 92, 0.566);
+    border: 10px solid #fff;
+    width: 600px;
+    height: 550px;
+    background-position: center;
+    align-items: center;
+    border-radius: 40px;
+
+  }
+  .signup-page input {
+    background: #ffffffa4;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .main {
+    color: #fff;
+    background-image: url(image/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+  .main>h2 {
+    display: block;
+    padding-right: 60%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: -moz-center;
+    padding-left: 10%;
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 900;
+  }
+  .main>article {
+    display: block;
+    font-size: 60px;
+    font-family: fantasy;
+    padding-left: 50px;
+  }
+  .scroll-container {
+    background-color: rgba(37, 39, 41, 0);
+    overflow: auto;
+    white-space: nowrap;
+    height: 500px;
+    width: 140px;
+    display: inline-flexbox;
+    padding-left: 40px;
+    margin-left: 30%;
+    margin-top: 1%;
+  }
+  .scroll-container>a>img {
+    height: 500px;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  .main2 {
+    background-color: #3e3d35;
+    height: fit-content;
+    overflow: auto;
+    bottom: 0%;
+  }
+  .image2 {
+    display: inline-block;
+    padding-left: 1%;
+    height: fit-content;
+    background-color: #3e3d35;
+    padding-top: 10%;
+  }
+  .main2>article {
+    display: inline-block;
+    position: absolute;
+    padding-left: 5%;
+    color: #fff;
+    height: fit-content;
+    overflow: auto;
+    background-color: #3e3d35;
+    font-size: 20px;
+  }
+  .partners {
+    background-color: #403f37;
+    top: 0%;
+    color: #fff;
+  }
+  footer {
+    background-color: #403f37;
+    top: 0px;
+    align-content: center;
+  }
+  section1 {
+    text-align: center;
+    color: #fff;
+  }
+  section3 {
+    color: #fff;
+    display: inline-block;
+    height: fit-content;
+
+  }
+  section4 {
+    display: inline-block;
+    color: #fff;
+    padding-left: 33%;
+
+  }
+  section5 {
+    display: inline-block;
+    color: #fff;
+    float: right;
+    font-size: 30px;
+
+  }
+  section5>ul {
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+  }
+  section>ul>li {
+    text-decoration: none;
+  }
+  * {
+    background-color: #403f37;
+    background-color: transparent;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fff;
+    background-color: transparent;
+  }
+}
+body.english1 {
+  .main {
+    background-image: url(image/english-school.jpg);
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header {
+    text-align: center;
+    display: flex;
+    padding-left: 33%;
+    top: 100%;
+  }
+  .nav {
+    float: right;
+    padding: 1.5em;
+    border-radius: 8px;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 0 1.5em;
+    color: #fff;
+  }
+  article1 {
+    padding-right: 50%;
+    display: flexbox;
+  }
+  .main1 {
+    background-image: url(image/englishimage.jpg);
+    color: #fff;
+    background-repeat: cover;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    background-attachment: fixed;
+  }
+  .scroll-container1 {
+    overflow: auto;
+    white-space: nowrap;
+    width: 900px;
+    display: inline-flexbox;
+    padding-left: 15%;
+  }
+  iframe {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .scroll-container2 {
+    overflow: auto;
+    white-space: nowrap;
+    width: 800px display:inline-flexbox;
+    padding-left: 15%;
+    padding-top: 10%;
+    padding-right: 50px;
+  }
+  footer {
+    display: block;
+    color: #fff;
+    background-color: #403f37;
+    font-size: larger;
+  }
+  .footer-links>a {
+    text-decoration: none;
+    background-color: #fff;
+    background-color: transparent;
+    color: #fff;
+  }
+}
+body.japanese1 {
+  header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0%;
+    background-color: #403f37;
+    color: #fff;
+  }
+  nav{
+    display: inline-flex;
+    float: right;
+  justify-content: space-between;
+  }
+  main {
+    background-color: #201f1d;
+    color: #fff;
+    font-weight: 500px;
+    margin: 0;
+    background-image: url(image/japanese1.png);
+background-size: cover;
+background-repeat: no-repeat;
+  }
+  .main1 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 5%;
+  }
+  article1 {
+    color: #363131;
+    color: #fff;
+
+  }
+  ol {
+    padding-left: 20px;
+  }
+  ul {
+    padding-left: 30px;
+  }
+  section {
+    overflow: auto;
+    white-space: nowrap;
+    height: 500px;
+    width: 700px;
+    padding-left: 600px;
+  }
+  iframe {
+    height: 400px;
+    padding-top: 50px;
+  }
+  footer {
+    background-color: #403f37;
+    top: 0px;
+    align-content: center;
+  }
+  section1 {
+    text-align: center;
+    color: #fff;
+  }
+  section3 {
+    color: #fff;
+    display: inline-block;
+    height: fit-content;
+  }
+  section4 {
+    display: inline-block;
+    color: #fff;
+    padding-left: 33%;}
+  section5 {
+    display: inline-block;
+    color: #fff;
+    float: right;
+    font-size: 30px;
+  }
+section5>ul {
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+  }
+  section>ul>li {
+    text-decoration: none;
+  }
+  * {
+    background-color: #403f37;
+    background-color: transparent;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fff;
+    background-color: transparent;
+  }
+}
+body.courses {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  header>h1 {
+    display: inline-flex;
+    font-size: 80px;
+    padding-left: 200px;
+    float: top;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-top: 0;
+    align-content: space-between;
+  }
+  header>img {
+    width: 70px;
+    padding
+  }
+  .buttons {
+    font-size: 30px;
+  }
+  header>ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    font-size: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+  }
+  main {
+    background-color: rgba(112, 112, 235, 0.283);
+  }
+}
+body.spanish1 {
+  header>h1 {
+    font-size: 70px;
+    display: inline-flex;
+    text-align: center;
+    padding-left: 300px;
+  }
+  header>ul {
+    display: inline-flex;
+    float: right;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+  main {
+    background-image: url(image/spanish12.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 300;
+  }
+  .scroll-container {
+    overflow: auto;
+    display: block;
+    white-space: nowrap;
+    width: 890px;
+    padding-left: 500px;
+  }
+  .scroll-container2 {
+    overflow: auto;
+    display: block;
+    white-space: nowrap;
+    width: 890px;
+    padding-left: 500px;
+  }
+}
